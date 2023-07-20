@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ $metaTitle ?: 'TheCodeholic Blog' }}</title>
-    <meta name="author" content="TheCodeholic">
+    <title>{{ $metaTitle ?: 'Karung Blog' }}</title>
+    <meta name="author" content="Karung">
     <meta name="description" content="{{ $metaDescription }}">
 
     <style>
@@ -64,7 +64,7 @@
                     <form method="get" action="{{ route('search') }}">
                         <input name="q" value="{{ request()->get('q') }}"
                             class="block w-full rounded-md border-0 px-3.5 py-2 t0ext-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6 font-medium"
-                            placeholder="Type an hit enter to search anything" />
+                            placeholder="Cari" />
                     </form>
                     @auth
                         <div class="flex sm:items-center sm:ml-6">

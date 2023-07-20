@@ -25,7 +25,7 @@ class PostFactory extends Factory
             'body' => fake()->realText(5000),
             'active' => fake()->boolean,
             'published_at' => fake()->dateTime,
-            'user_id' => 1
+            'user_id' => fake()->randomElement([4, 8])
         ];
     }
 }

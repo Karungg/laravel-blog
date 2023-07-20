@@ -1,5 +1,5 @@
 <x-app-layout :meta-title="$post->meta_title ?: $post->title" :meta-description="$post->meta_description">
-    <div class="flex justify-center">
+    <div class="w-full flex justify-center">
         <!-- Post Section -->
         <section class="w-full md:w-1/2 flex flex-col px-3">
 

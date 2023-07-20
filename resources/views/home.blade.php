@@ -1,5 +1,4 @@
-<x-app-layout meta-title="TheCodeholic Blog"
-    meta-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+<x-app-layout meta-title="Karung Blog" meta-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
     <div class="container max-w-4xl mx-auto py-6">
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
